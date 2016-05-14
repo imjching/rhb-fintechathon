@@ -33,16 +33,12 @@
 	.columns:after{
 		border: none;
 	}
-	.pricing-wrapper {
-	    margin-bottom: 20px;
-	}
 	.flaoting-img{
 		margin: 30px 0px;
 	}
 }
 
-
-/* Custom, iPhone Retina */ 
+/* Custom, iPhone Retina */
 @media (min-width : 320px) and (max-width : 767px)  {
 	.heading-inner {
     	width: 90%;
@@ -54,27 +50,8 @@
 	    font-size: 40px;
 	    line-height: 60px;
 	}
-
 	.slider-content .btn-container .btn-deafult{
 		margin-bottom: 20px;
-	}
-
-	.process-content {
-	    padding: 30px 40px;
-	    margin-bottom: 10px;
-}
-	#process-carousel.carousel-indicators{
-		bottom: 0px;
-	}
-
-	.subscription input {
-	    width: 100%;
-	}
-	.subscription .btn-default {
-	    position: relative;
-	    margin-top: 10px;
-	    margin-left: 10px;
-	    left: 0px;
 	}
 	.columns {
 	    margin-bottom: 35px;
@@ -82,15 +59,10 @@
 	.columns:after{
 		border: none;
 	}
-
-	.pricing-wrapper {
-	    margin-bottom: 40px;
-	}
 	.btn-container a {
 	    margin-right: -1px;
 	}
 	.flaoting-img{
 		margin: 20px 0px;
 	}
-
 }
