@@ -1,11 +1,11 @@
 /*
   * @package Droplet
   * @subpackage Droplet HTML
-  * 
+  *
   * Template Scripts
   * Created by Themeturn
 
-  
+
 */
 
 
@@ -14,7 +14,7 @@ $(window).load(function() { // makes sure the whole site is loaded
 
   /* ==============================================
       Menu toggle
-    =============================================== */ 
+    =============================================== */
     $(window).bind('scroll', function() {
         var navHeight = $(window).height() - 40;
         if ($(window).scrollTop() > navHeight) {
@@ -24,35 +24,35 @@ $(window).load(function() { // makes sure the whole site is loaded
         }
     });
 
-    $('body').scrollspy({ 
+    $('body').scrollspy({
         target: '.navbar-default',
         offset: 70
     })
- 
+
 
 });
 
-  
+
 
 $(document).ready(function(){
-  
+
   "use strict";
-  
+
   $("a[data-rel^='prettyPhoto']").prettyPhoto();
 
  /* ==============================================
        Testimonialcarousel
-    =============================================== */ 
+    =============================================== */
 
   $("#testimonial-carousel").owlCarousel({
- 
+
       navigation : false, // Show next and prev buttons
       slideSpeed : 600,
       pagination:true,
       itemsDesktop : [1199,3],
       itemsDesktopSmall : [979,3],
       singleItem:true
- 
+
     });
 
     // Custom Navigation Events
@@ -72,11 +72,11 @@ $(document).ready(function(){
     $(".stop").click(function(){
       owl.trigger('owl.stop');
     })
-   
+
 
     /* ==============================================
      Client carousel
-    =============================================== */ 
+    =============================================== */
 
  $("#client-carousel").owlCarousel({
       navigation : false, // Show next and prev buttons
@@ -101,7 +101,7 @@ $(document).ready(function(){
     interval: 1000000,
   });
 
-   
+
     $('#app-carousel').carousel({
         interval: 100000
     })
@@ -118,16 +118,16 @@ $(document).ready(function(){
         ], {
             fade: 950,
             duration: 10000
-        });  
+        });
 
-    
- 
+
+
 
 
 /* ==============================================
 Back To Top Button
-=============================================== */  
- 
+=============================================== */
+
   $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#back-top').fadeIn();
@@ -143,9 +143,9 @@ Back To Top Button
           }, 800);
           return false;
       });
-      
+
       $('#back-top').tooltip('hide');
 
-  
+
 
 });
