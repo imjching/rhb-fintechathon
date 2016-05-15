@@ -412,12 +412,11 @@ h5 {
 }
 
 /* Clients */
-.clients{
+.clients {
 	background: #FFFFFF;
 	color: #fff;
-
-	padding: 20px 0px 40px;
-	border:5px solid #d4d4d4;
+	padding: 20px 0 40px;
+	border: 5px solid #d4d4d4;
 	border-right-style: none;
 	border-left-style: none;
 }
