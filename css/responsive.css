@@ -1,0 +1,45 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+	.heading-inner::before,.heading-inner::after{
+		display: none;
+	}
+	.navbar-brand {
+	    height: 15px;
+	    padding: 10px 7px;
+	}
+	.nav > li > a {
+	    padding: 15px 5px;
+	    font-size: 12px;
+	}
+	.floating-img {
+		margin: 30px 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media (min-width : 320px) and (max-width : 767px)  {
+	.heading-inner {
+    	width: 90%;
+	}
+	.heading-inner::before,.heading-inner::after{
+		display: none;
+	}
+	.slider-title {
+    font-size: 40px;
+    line-height: 60px;
+	}
+	.floating-img {
+		margin: 20px 0;
+	}
+}
